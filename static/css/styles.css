@@ -21,6 +21,13 @@ img {
     margin-right: auto;
 }
 
+button {
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    color: white;
+    background-color: green;
+}
+
 .time {
     font-weight: 500;
     font-family: Helvetica;
@@ -28,4 +35,8 @@ img {
     color: white;
     text-align: center;
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
+
+.button-container {
+    text-align: center;;
 }

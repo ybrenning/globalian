@@ -10,14 +10,28 @@
 <body>
     <h1>Has "Kilian Wagner" reached global?</h1>
     <img src="../static/img/IMG_5066.PNG" alt="Walking L">
-    <p style="font-size: 30px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><strong>No</strong>, he has not reached global!</p>
 
-    <p>How many days has he not been able to achieve the ranking of "Global Elite" in the tactical shooter "Counter-Strike: Global Offensive?</p>
+    <p style="font-size: 30px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+        <strong>No</strong>, he has not reached global!
+    </p>
+
+    <div class="button-container">
+        <audio id="sound1" src="../static/audio/sound1.mp3" preload="auto"></audio>
+        <button onclick="document.getElementById('sound1').play();">
+            Current performance
+        </button>
+    </div>
+
+    <p>
+        How many days has he not been able to achieve the ranking of "Global Elite" 
+        in the tactical shooter "Counter-Strike: Global Offensive?
+    </p>
     <br/>
 
     <p>It has been</p>
     <div class="time">{{ days }}</div>
     <p>days!!!</p>
+
     <p>WOW. That equates to {{ minutes }} minutes... Yikes</p>
 </body>
 </html>

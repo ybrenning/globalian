@@ -1,0 +1,23 @@
+h1 {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+    font-family: Comic Sans MS;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 18px;
+    text-align: center;
+}
+
+.time {
+    font-weight: 500;
+    font-family: Helvetica;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
